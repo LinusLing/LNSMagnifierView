@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LNSMagnifierView_Example' do
+  pod 'LNSMagnifierView', :path => '../'
+
+  target 'LNSMagnifierView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
