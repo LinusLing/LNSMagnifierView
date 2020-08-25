@@ -1,0 +1,16 @@
+PODS:
+  - LNSMagnifierView (1.0.0)
+
+DEPENDENCIES:
+  - LNSMagnifierView (from `../`)
+
+EXTERNAL SOURCES:
+  LNSMagnifierView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LNSMagnifierView: 9d205b8b152e700f5b286360390794972e101cbb
+
+PODFILE CHECKSUM: f73de5fdb2323b52bfe839892d4facde0a32777d
+
+COCOAPODS: 1.8.4

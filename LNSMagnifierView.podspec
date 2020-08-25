@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LNSMagnifierView'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of LNSMagnifierView.'
+  s.version          = '1.0.0'
+  s.summary          = 'An easy-to-use LNSMagnifierView for iOS development.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,18 +17,15 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'easy-to-use Swift Magnifier View for iOS development'
 
-  s.homepage         = 'https://github.com/360725966@qq.com/LNSMagnifierView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/LinusLing/LNSMagnifierView'
+  s.screenshots      = 'https://i.loli.net/2020/08/25/RJK94Y1ULm2xjsA.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '360725966@qq.com' => 'lingfei@u51.com' }
-  s.source           = { :git => 'https://github.com/360725966@qq.com/LNSMagnifierView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'LinusLing' => 'linusling419@gmail.com' }
+  s.source           = { :git => 'https://github.com/LinusLing/LNSMagnifierView.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'LNSMagnifierView/Classes/**/*'
   

@@ -1,0 +1,6 @@
+framework module LNSMagnifierView {
+  umbrella header "LNSMagnifierView-umbrella.h"
+
+  export *
+  module * { export * }
+}

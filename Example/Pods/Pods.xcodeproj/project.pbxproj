@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F16CF55247667A8859AD35E80CB1BD7 /* Pods-LNSMagnifierView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F84BDB711550C3C4C8B372E61D67A5D3 /* Pods-LNSMagnifierView_Example-dummy.m */; };
+		116BB41456C65567542BA3B6E5F34B1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2A3968EBB58B9AA719CD88AEB8D3D788 /* Pods-LNSMagnifierView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 542C0F51BAF350B27B121764B6C519A6 /* Pods-LNSMagnifierView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81E9B09B81E2A06BDA8502CDA8C1CD4C /* LNSMagnifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6772FEFE671D6DB9421A6D25D54F32 /* LNSMagnifierView.swift */; };
+		B2644F84A7A06299CEDE332FBE68EF43 /* LNSMagnifierView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EB40F4B5B0EB9DB288D2FA66D88BF21 /* LNSMagnifierView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDD7C2392F1AD3C751802A1480918187 /* LNSMagnifierView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D203A5B1D0A7E0B039581E18FF1146B3 /* LNSMagnifierView-dummy.m */; };
+		FCE62325ED249439EADDE772FEA3C3AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FF94C6B3DB6D1FFD66EA14A2ABBEFB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DF16442F697E28BF585D9794F0B5826;
+			remoteInfo = LNSMagnifierView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0543B0F23E79FA5C9B02AC2875701019 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0BAEE0BFE119BF877D7011B1CB02F63C /* Pods-LNSMagnifierView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LNSMagnifierView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1E09ADE0708D7F247317FC3BF03072D5 /* LNSMagnifierView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LNSMagnifierView.modulemap; sourceTree = "<group>"; };
+		2EB40F4B5B0EB9DB288D2FA66D88BF21 /* LNSMagnifierView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LNSMagnifierView-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		39684329E177597E0F8B236555C60397 /* Pods-LNSMagnifierView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LNSMagnifierView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		44E471079D2631E536B1E1BDA8F741A4 /* Pods-LNSMagnifierView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LNSMagnifierView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4B04845488AE7E9F8F72A858E7D435F5 /* Pods_LNSMagnifierView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LNSMagnifierView_Example.framework; path = "Pods-LNSMagnifierView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		542C0F51BAF350B27B121764B6C519A6 /* Pods-LNSMagnifierView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LNSMagnifierView_Example-umbrella.h"; sourceTree = "<group>"; };
+		98D8942CA4D4B7C008902F1666E20160 /* LNSMagnifierView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LNSMagnifierView-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2DF240A2284903C149F06090B6B40B8 /* Pods-LNSMagnifierView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LNSMagnifierView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A6318FE96270786821F3652B5B2424DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B3593DF982C09D24BCAD8F7C36757F42 /* Pods-LNSMagnifierView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LNSMagnifierView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BDED3CF7C6D1F7638A9666CC15E9A6FC /* LNSMagnifierView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LNSMagnifierView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BECF54C1DD225DA0C295016A182AF639 /* LNSMagnifierView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LNSMagnifierView-prefix.pch"; sourceTree = "<group>"; };
+		C99B4BF034C98B4AC58D8183DA74F5C2 /* LNSMagnifierView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LNSMagnifierView.framework; path = LNSMagnifierView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2A9C337929A2702B0A0CBE1D8C8539 /* Pods-LNSMagnifierView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LNSMagnifierView_Example.modulemap"; sourceTree = "<group>"; };
+		D203A5B1D0A7E0B039581E18FF1146B3 /* LNSMagnifierView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LNSMagnifierView-dummy.m"; sourceTree = "<group>"; };
+		E7970C908CD578975C39BD09B64E53FA /* LNSMagnifierView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LNSMagnifierView.xcconfig; sourceTree = "<group>"; };
+		EDE49696064E588299FCF6AB5B25E2C3 /* Pods-LNSMagnifierView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LNSMagnifierView_Example-Info.plist"; sourceTree = "<group>"; };
+		F84BDB711550C3C4C8B372E61D67A5D3 /* Pods-LNSMagnifierView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LNSMagnifierView_Example-dummy.m"; sourceTree = "<group>"; };
+		FE6772FEFE671D6DB9421A6D25D54F32 /* LNSMagnifierView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LNSMagnifierView.swift; path = LNSMagnifierView/Classes/LNSMagnifierView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B460EA41C0F36DF543A29F64D0DA6175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE62325ED249439EADDE772FEA3C3AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52595CE8299933E7DAA72810CD14A8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116BB41456C65567542BA3B6E5F34B1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A166FA3EC8D4EABA228C6378F81D1D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0543B0F23E79FA5C9B02AC2875701019 /* LICENSE */,
+				BDED3CF7C6D1F7638A9666CC15E9A6FC /* LNSMagnifierView.podspec */,
+				A6318FE96270786821F3652B5B2424DC /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		360B058ECFCEAC39948D431361846BCB /* LNSMagnifierView */ = {
+			isa = PBXGroup;
+			children = (
+				FE6772FEFE671D6DB9421A6D25D54F32 /* LNSMagnifierView.swift */,
+				04A166FA3EC8D4EABA228C6378F81D1D /* Pod */,
+				4832E41ADFA96ECADBF0C05F3756AB16 /* Support Files */,
+			);
+			name = LNSMagnifierView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		439B1A016E698CFC4BCF9CCCEB973B69 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				360B058ECFCEAC39948D431361846BCB /* LNSMagnifierView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4832E41ADFA96ECADBF0C05F3756AB16 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E09ADE0708D7F247317FC3BF03072D5 /* LNSMagnifierView.modulemap */,
+				E7970C908CD578975C39BD09B64E53FA /* LNSMagnifierView.xcconfig */,
+				D203A5B1D0A7E0B039581E18FF1146B3 /* LNSMagnifierView-dummy.m */,
+				98D8942CA4D4B7C008902F1666E20160 /* LNSMagnifierView-Info.plist */,
+				BECF54C1DD225DA0C295016A182AF639 /* LNSMagnifierView-prefix.pch */,
+				2EB40F4B5B0EB9DB288D2FA66D88BF21 /* LNSMagnifierView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LNSMagnifierView";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				439B1A016E698CFC4BCF9CCCEB973B69 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E8BA773FB86D443D4DFE0BBC2A18A334 /* Products */,
+				E25955401C28B8FA9112C4146131A937 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E25955401C28B8FA9112C4146131A937 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED78F7C7E8E77CDAAB66ACC87F689189 /* Pods-LNSMagnifierView_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E8BA773FB86D443D4DFE0BBC2A18A334 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C99B4BF034C98B4AC58D8183DA74F5C2 /* LNSMagnifierView.framework */,
+				4B04845488AE7E9F8F72A858E7D435F5 /* Pods_LNSMagnifierView_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED78F7C7E8E77CDAAB66ACC87F689189 /* Pods-LNSMagnifierView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CF2A9C337929A2702B0A0CBE1D8C8539 /* Pods-LNSMagnifierView_Example.modulemap */,
+				0BAEE0BFE119BF877D7011B1CB02F63C /* Pods-LNSMagnifierView_Example-acknowledgements.markdown */,
+				44E471079D2631E536B1E1BDA8F741A4 /* Pods-LNSMagnifierView_Example-acknowledgements.plist */,
+				F84BDB711550C3C4C8B372E61D67A5D3 /* Pods-LNSMagnifierView_Example-dummy.m */,
+				39684329E177597E0F8B236555C60397 /* Pods-LNSMagnifierView_Example-frameworks.sh */,
+				EDE49696064E588299FCF6AB5B25E2C3 /* Pods-LNSMagnifierView_Example-Info.plist */,
+				542C0F51BAF350B27B121764B6C519A6 /* Pods-LNSMagnifierView_Example-umbrella.h */,
+				B3593DF982C09D24BCAD8F7C36757F42 /* Pods-LNSMagnifierView_Example.debug.xcconfig */,
+				A2DF240A2284903C149F06090B6B40B8 /* Pods-LNSMagnifierView_Example.release.xcconfig */,
+			);
+			name = "Pods-LNSMagnifierView_Example";
+			path = "Target Support Files/Pods-LNSMagnifierView_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		371F267B7101962B0C00D05ABE0E5AC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A3968EBB58B9AA719CD88AEB8D3D788 /* Pods-LNSMagnifierView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37331E88498CF4500A24604B9E1B6683 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2644F84A7A06299CEDE332FBE68EF43 /* LNSMagnifierView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1BF734F790A47DF337027EC0107ACCB2 /* Pods-LNSMagnifierView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D4FAB59BDD3EC3C3B430B06F1EBFFFC /* Build configuration list for PBXNativeTarget "Pods-LNSMagnifierView_Example" */;
+			buildPhases = (
+				371F267B7101962B0C00D05ABE0E5AC5 /* Headers */,
+				DDEE0D31A28C3CC35CB68011765FE5A4 /* Sources */,
+				B460EA41C0F36DF543A29F64D0DA6175 /* Frameworks */,
+				2A364C6059220BA831D1E35D28B7F495 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				529C46DCF3F49F349375040755F1AF6F /* PBXTargetDependency */,
+			);
+			name = "Pods-LNSMagnifierView_Example";
+			productName = "Pods-LNSMagnifierView_Example";
+			productReference = 4B04845488AE7E9F8F72A858E7D435F5 /* Pods_LNSMagnifierView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9DF16442F697E28BF585D9794F0B5826 /* LNSMagnifierView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E28EE0C7FAF6174379408BE87CF1A39 /* Build configuration list for PBXNativeTarget "LNSMagnifierView" */;
+			buildPhases = (
+				37331E88498CF4500A24604B9E1B6683 /* Headers */,
+				AD0C51B6861D9718FBECE59159888A9A /* Sources */,
+				F52595CE8299933E7DAA72810CD14A8A /* Frameworks */,
+				25EEFDA698B3BB838B872E92D13FDE6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LNSMagnifierView;
+			productName = LNSMagnifierView;
+			productReference = C99B4BF034C98B4AC58D8183DA74F5C2 /* LNSMagnifierView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E8BA773FB86D443D4DFE0BBC2A18A334 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DF16442F697E28BF585D9794F0B5826 /* LNSMagnifierView */,
+				1BF734F790A47DF337027EC0107ACCB2 /* Pods-LNSMagnifierView_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25EEFDA698B3BB838B872E92D13FDE6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A364C6059220BA831D1E35D28B7F495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD0C51B6861D9718FBECE59159888A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD7C2392F1AD3C751802A1480918187 /* LNSMagnifierView-dummy.m in Sources */,
+				81E9B09B81E2A06BDA8502CDA8C1CD4C /* LNSMagnifierView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEE0D31A28C3CC35CB68011765FE5A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F16CF55247667A8859AD35E80CB1BD7 /* Pods-LNSMagnifierView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		529C46DCF3F49F349375040755F1AF6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LNSMagnifierView;
+			target = 9DF16442F697E28BF585D9794F0B5826 /* LNSMagnifierView */;
+			targetProxy = 2FF94C6B3DB6D1FFD66EA14A2ABBEFB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		230F7F2986A28C35AC358D0741216230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2DF240A2284903C149F06090B6B40B8 /* Pods-LNSMagnifierView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LNSMagnifierView_Example/Pods-LNSMagnifierView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LNSMagnifierView_Example/Pods-LNSMagnifierView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A11B2B227733F4E46C119D9104DA28B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7970C908CD578975C39BD09B64E53FA /* LNSMagnifierView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LNSMagnifierView/LNSMagnifierView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LNSMagnifierView/LNSMagnifierView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LNSMagnifierView/LNSMagnifierView.modulemap";
+				PRODUCT_MODULE_NAME = LNSMagnifierView;
+				PRODUCT_NAME = LNSMagnifierView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C812A19503BE83CA5A914747C2FED92F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3593DF982C09D24BCAD8F7C36757F42 /* Pods-LNSMagnifierView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LNSMagnifierView_Example/Pods-LNSMagnifierView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LNSMagnifierView_Example/Pods-LNSMagnifierView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F939359F0C628CD6209A11D068934889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7970C908CD578975C39BD09B64E53FA /* LNSMagnifierView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LNSMagnifierView/LNSMagnifierView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LNSMagnifierView/LNSMagnifierView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LNSMagnifierView/LNSMagnifierView.modulemap";
+				PRODUCT_MODULE_NAME = LNSMagnifierView;
+				PRODUCT_NAME = LNSMagnifierView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E28EE0C7FAF6174379408BE87CF1A39 /* Build configuration list for PBXNativeTarget "LNSMagnifierView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F939359F0C628CD6209A11D068934889 /* Debug */,
+				A11B2B227733F4E46C119D9104DA28B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D4FAB59BDD3EC3C3B430B06F1EBFFFC /* Build configuration list for PBXNativeTarget "Pods-LNSMagnifierView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C812A19503BE83CA5A914747C2FED92F /* Debug */,
+				230F7F2986A28C35AC358D0741216230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

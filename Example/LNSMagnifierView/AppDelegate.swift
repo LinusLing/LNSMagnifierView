@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  LNSMagnifierView
 //
-//  Created by 360725966@qq.com on 08/25/2020.
-//  Copyright (c) 2020 360725966@qq.com. All rights reserved.
+//  Created by LinusLing on 08/25/2020.
+//  Copyright (c) 2020 LinusLing. All rights reserved.
 //
 
 import UIKit
